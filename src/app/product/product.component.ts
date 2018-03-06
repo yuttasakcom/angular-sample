@@ -10,9 +10,9 @@ export class ProductComponent implements OnInit {
 
   @Output() productClicked = new EventEmitter()
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   onClicked() {
     this.productClicked.emit()
